@@ -1,0 +1,52 @@
+:root{
+  --primary-color: #231a19;
+  --accent-color: #f09035;
+  --third-color: #FFFFFF;
+}
+
+body{
+  background-color: var(--primary-color);
+  font-family: 'Manrope', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 80px;
+  background-color: var(--primary-color);
+  font-size: 17px;
+}
+
+li {
+  display: inline;
+  color: var(--third-color);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.shortcut-menu {
+  padding-top: 15px;
+  float: right;
+}
+
+.s-menu {
+  cursor: pointer;
+}
+
+.s-menu1{
+  width: 35px;
+  height: 2.5px;
+  background-color: white;
+}
+
+.s-menu2{
+  width: 35px;
+  height: 5px;
+}
+
+.s-menu3{
+  float: right;
+  width: 23px;
+  height: 2.5px;
+  background-color: white;
+}
