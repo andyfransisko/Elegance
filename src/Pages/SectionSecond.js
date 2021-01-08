@@ -1,5 +1,8 @@
 import React from 'react'
 import SecPic from '../img/sec-pic2.png'
+import SecPic2 from '../img/sec-pic3.png'
+import LogoMobile1 from '../img/logomobile2.png'
+import LogoMobile2 from '../img/logomobile4.png'
 
 class SectionSecond extends React.Component{
     render(){
@@ -49,6 +52,25 @@ class SectionSecond extends React.Component{
                         <button class="my-button">
                             Interested!
                         </button>
+                    </div>
+
+                    <div class="sec-picture2">
+                        <img src= { SecPic2 } width="500px" />
+                    </div>
+
+                    <div class="sec-head3 third-font-color">
+                        <b>
+                            Get the Mobile Apps
+                        </b>
+                    </div>
+
+                    <div class="sec-head4 med-font-color">
+                        Get our latest mobile apps for IOS and Android.
+                    </div>
+
+                    <div class="sec-head5">
+                        <img src= { LogoMobile1 } width="120px" class="sec-head-pad" />
+                        <img src= { LogoMobile2 } width="120px" class="sec-head-pad" />
                     </div>
 
                 </div>
