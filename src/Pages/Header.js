@@ -3,19 +3,28 @@ import Logo from '../img/logo.png';
 
 function Header(){
     return(
+        
         <header>
             <ul>
-                <li class="logo">
-                    <img src= { Logo } width="25px" />
+                <li>
+                    <a href="#">
+                        <img src= { Logo } width="25px" />
+                    </a>
                 </li>
                 <li >
-                    <b> Inspiration </b>
+                    <a href="#" class="underlined-effect">
+                        <b> Inspiration </b>
+                    </a>
                 </li>
                 <li>
-                    <b> About </b>
+                    <a href="#" class="underlined-effect">
+                        <b> About </b>
+                    </a>
                 </li>
                 <li>
-                    <b> Contact </b>
+                    <a href="#" class="underlined-effect">
+                        <b> Contact </b>
+                    </a>
                 </li>
                 <li class="shortcut-menu">
                     <span class="s-menu">
