@@ -37,8 +37,12 @@ class SectionFirst extends React.Component{
                     </div>
 
                     <div class="first-socmed">
-                        <span class="fa fa-instagram"></span>
-                        <span class="fa fa-twitter"></span>
+                        <a href="http://www.instagram.com/andyfransisko" target="_blank">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                        <a href="http://www.andyfransisko.com" target="_blank">
+                            <span class="fa fa-twitter"></span>
+                        </a>
                     </div>
 
                     <div class="first-bullet">

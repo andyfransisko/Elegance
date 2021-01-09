@@ -69,8 +69,8 @@ class SectionSecond extends React.Component{
                     </div>
 
                     <div class="sec-head5">
-                        <img src= { LogoMobile1 } width="120px" class="sec-head-pad" />
-                        <img src= { LogoMobile2 } width="120px" class="sec-head-pad" />
+                        <img src= { LogoMobile1 } width="120px" class="sec-head-pad" class="img-hover"/>
+                        <img src= { LogoMobile2 } width="120px" class="sec-head-pad" class="img-hover"/>
                     </div>
 
                 </div>

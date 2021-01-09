@@ -149,6 +149,14 @@ a {
   padding-right: 12px;
 }
 
+.fa-instagram:hover{
+  color:var(--accent-color);
+}
+
+.fa-twitter:hover{
+  color:var(--accent-color);
+}
+
 .first-bullet{
   grid-column: 3 / 5;
   grid-row: 6;
@@ -271,6 +279,10 @@ a {
   justify-self: end;
 }
 
+.img-hover:hover{
+  cursor: pointer;
+}
+
 .sec-head-pad{
   padding-left: 15px;
   padding-right: 15px;
@@ -289,4 +301,99 @@ a {
   color: var(--third-color);
   border-radius: 40px;
   cursor: pointer;
+}
+
+.my-button:hover{
+  background-color: #C36B03;
+}
+
+footer{
+  background-color: black;
+  border-top: 1px solid var(--accent-color);
+}
+
+.foot-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.foot-about{
+  grid-column: 7 / 12;
+  grid-row: 2;
+  align-self: center;
+  font-size: 24px;
+}
+
+.foot-about-info{
+  grid-column: 7 / 12;
+  grid-row: 3 / 5;
+  font-size: 16px;
+}
+
+.foot-about-socmed{
+  grid-column: 7 / 12;
+  grid-row: 5;
+  align-self: center;
+}
+
+.foot-location{
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: end;
+  align-self: center;
+}
+
+.foot-location-info{
+  grid-column: 3/6;
+  grid-row: 2;
+  align-self: center;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.foot-phone{
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: end;
+  align-self: center;
+}
+
+.foot-phone-info{
+  grid-column: 3/6;
+  grid-row: 3;
+  align-self: center;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.foot-email{
+  grid-column: 2;
+  grid-row: 4;
+  justify-self: end;
+  align-self: center;
+}
+
+.foot-email-info{
+  grid-column: 3/6;
+  grid-row: 4;
+  align-self: center;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.fa-map-marker{
+  color:white;
+  font-size: 28px;
+}
+
+.fa-phone{
+  color:white;
+  font-size: 28px;
+}
+
+.fa-envelope{
+  color:white;
+  font-size: 24px;
 }
