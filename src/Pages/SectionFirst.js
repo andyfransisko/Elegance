@@ -2,9 +2,44 @@ import React from 'react'
 import MainPic from '../img/main-pic.jpeg'
 
 class SectionFirst extends React.Component{
+
+    constructor(){
+        super()
+        this.state={
+            headerText: 'The art of art, the glory of expression, and the sunshine of the light of letters, is simplicity.',
+            headerNumber: "01"
+        }
+    }
+
+    changeText(){
+        let count = 0
+        let wordsArray = [  "The art of art, the glory of expression, and the sunshine of the light of letters, is simplicity.", 
+                            "Gamma", 
+                            "Delta", 
+                            "Alpha"]
+        let numberArray = ["01","02","03","04"]
+        setInterval(() => {
+            count++;
+            this.setState(prevState => {
+                return {
+                    headerText: wordsArray[count % wordsArray.length],
+                    headerNumber: numberArray[count % wordsArray.length]
+                }
+            })
+        }, 7000);
+    }
+
     render(){
+
+        const dotActive = {
+            backgroundColor: "var(--accent-color)",
+            height: "10px",
+            width: "10px",
+            transition: "1.5s"
+        }
+
         return(
-            <section name="first">
+            <section name="first" onLoad= {() => this.changeText()}>
                 <div class="container">
                     <div class="first-picture">
                         <img src= { MainPic } width="300px" />
@@ -19,7 +54,7 @@ class SectionFirst extends React.Component{
                     <div class="first-head2">
                         <span class="accent-font-color first-head2-font-size1">
                             <b>
-                                01
+                                {this.state.headerNumber}
                             </b>
                         </span>
                         <span class="low-font-color first-head2-font-size2">
@@ -30,10 +65,7 @@ class SectionFirst extends React.Component{
                     </div>
 
                     <div class="first-head3 med-font-color">
-                        The art of art, the glory 
-                        of expression, and the 
-                        sunshine of the light 
-                        of letters, is simplicity.
+                        {this.state.headerText}
                     </div>
 
                     <div class="first-socmed">
@@ -46,10 +78,10 @@ class SectionFirst extends React.Component{
                     </div>
 
                     <div class="first-bullet">
-                        <span class="dot dot-active"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
+                        <span class="dot" style={this.state.headerNumber === '01' ? dotActive : null}></span>
+                        <span class="dot" style={this.state.headerNumber === '02' ? dotActive : null}></span>
+                        <span class="dot" style={this.state.headerNumber === '03' ? dotActive : null}></span>
+                        <span class="dot" style={this.state.headerNumber === '04' ? dotActive : null}></span>
                     </div>
 
                     <div class="first-copy low-font-color">
