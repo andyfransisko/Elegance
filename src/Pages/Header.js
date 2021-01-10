@@ -46,7 +46,7 @@ class Header extends React.Component{
                     <li>
                         <Link to = "/">
                             <span>
-                                <img src= { Logo } width="25px" alt="LOGO"/>
+                                <img src= { Logo } className="small-img-width" alt="LOGO"/>
                             </span>
                         </Link>
                         

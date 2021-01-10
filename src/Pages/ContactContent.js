@@ -16,7 +16,7 @@ class ContactContent extends React.Component{
                         Feel free to ask us by filling bellow
                     </div>
                     <div className="contact-picture">
-                        <img src= { QuestionPic } width="500px" alt=""/>
+                        <img src= { QuestionPic } className="standard-img-width" alt=""/>
                     </div>
 
                     <div className="contact-fill1">

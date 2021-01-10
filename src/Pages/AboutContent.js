@@ -9,7 +9,7 @@ class AboutContent extends React.Component{
             <section name = "about">
                 <div className="about-container">
                     <div className="about-picture">
-                        <img src= { AboutPic } width="550px" alt="" />
+                        <img src= { AboutPic } className="standard-img-width2" alt="" />
                     </div>
                     <div className="about-head1 third-font-color">
                         <b>
@@ -26,7 +26,7 @@ class AboutContent extends React.Component{
                     </div>
 
                     <div className="about-picture2">
-                        <img src= { MissionPic } width="500px" alt="" />
+                        <img src= { MissionPic } className="standard-img-width" alt="" />
                     </div>
                     <div className="about-info accent-font-color">
                         <b>
@@ -79,7 +79,7 @@ class AboutContent extends React.Component{
                     </div>
 
                     <div className="about-highlight-picture">
-                        <img src= { PeoplePic } width="600px" alt="" />
+                        <img src= { PeoplePic } className="standard-img-width3" alt="" />
                     </div>
                     <div className="about-highlight third-font-color">
                         "Empathy is about standing in someone else's shoes, feeling with his 

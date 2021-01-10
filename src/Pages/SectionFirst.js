@@ -9,6 +9,7 @@ class SectionFirst extends React.Component{
             headerText: 'The art of art, the glory of expression, and the sunshine of the light of letters, is simplicity.',
             headerNumber: "01"
         }
+        this.changeText = this.changeText.bind(this)
     }
 
     changeText(){
@@ -19,14 +20,14 @@ class SectionFirst extends React.Component{
                             "Alpha"]
         let numberArray = ["01","02","03","04"]
         setInterval(() => {
-            count++;
+            count = count + 1;
             this.setState(prevState => {
                 return {
                     headerText: wordsArray[count % wordsArray.length],
                     headerNumber: numberArray[count % wordsArray.length]
                 }
             })
-        }, 7000);
+        },7000);
     }
 
     render(){
