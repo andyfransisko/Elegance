@@ -40,51 +40,51 @@ class SectionFirst extends React.Component{
 
         return(
             <section name="first" onLoad= {() => this.changeText()}>
-                <div class="container">
-                    <div class="first-picture">
+                <div className="container">
+                    <div className="first-picture">
                         <img src= { MainPic } width="300px" />
                     </div>
 
-                    <div class="first-head font-size1 third-font-color">
+                    <div className="first-head third-font-color">
                         <b>
                             Elegance.
                         </b>
                     </div>
 
-                    <div class="first-head2">
-                        <span class="accent-font-color first-head2-font-size1">
+                    <div className="first-head2">
+                        <span className="accent-font-color first-head2-font-size1">
                             <b>
                                 {this.state.headerNumber}
                             </b>
                         </span>
-                        <span class="low-font-color first-head2-font-size2">
+                        <span className="low-font-color first-head2-font-size2">
                             <b>
                                 /04
                             </b>
                         </span>
                     </div>
 
-                    <div class="first-head3 med-font-color">
+                    <div className="first-head3 med-font-color">
                         {this.state.headerText}
                     </div>
 
-                    <div class="first-socmed">
+                    <div className="first-socmed">
                         <a href="http://www.instagram.com/andyfransisko" target="_blank">
-                            <span class="fa fa-instagram"></span>
+                            <span className="fa fa-instagram"></span>
                         </a>
                         <a href="http://www.andyfransisko.com" target="_blank">
-                            <span class="fa fa-twitter"></span>
+                            <span className="fa fa-twitter"></span>
                         </a>
                     </div>
 
-                    <div class="first-bullet">
-                        <span class="dot" style={this.state.headerNumber === '01' ? dotActive : null}></span>
-                        <span class="dot" style={this.state.headerNumber === '02' ? dotActive : null}></span>
-                        <span class="dot" style={this.state.headerNumber === '03' ? dotActive : null}></span>
-                        <span class="dot" style={this.state.headerNumber === '04' ? dotActive : null}></span>
+                    <div className="first-bullet">
+                        <span className="dot" style={this.state.headerNumber === '01' ? dotActive : null}></span>
+                        <span className="dot" style={this.state.headerNumber === '02' ? dotActive : null}></span>
+                        <span className="dot" style={this.state.headerNumber === '03' ? dotActive : null}></span>
+                        <span className="dot" style={this.state.headerNumber === '04' ? dotActive : null}></span>
                     </div>
 
-                    <div class="first-copy low-font-color">
+                    <div className="first-copy low-font-color">
                         &copy; 2020
                     </div>
                 </div>

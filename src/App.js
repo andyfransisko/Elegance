@@ -1,17 +1,16 @@
 import React from 'react'
 import './App.css'
-import Header from './Pages/Header'
-import MainContent from './Pages/MainContent'
-import Footer from './Pages/Footer'
+
+import { Router } from 'react-router-dom'
+import history from './Services/history'
+import Routes from './Routes/Route'
 
 class App extends React.Component{
   render(){
     return(
-        <div>
-          <Header />
-          <MainContent />
-          <Footer />
-        </div>   
+        <Router history={history}>
+          <Routes />
+        </Router>
     )
   }
 }
