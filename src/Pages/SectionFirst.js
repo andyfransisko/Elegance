@@ -42,7 +42,7 @@ class SectionFirst extends React.Component{
             <section name="first" onLoad= {() => this.changeText()}>
                 <div className="container">
                     <div className="first-picture">
-                        <img src= { MainPic } width="300px" />
+                        <img src= { MainPic } width="300px" alt="" />
                     </div>
 
                     <div className="first-head third-font-color">
@@ -69,10 +69,10 @@ class SectionFirst extends React.Component{
                     </div>
 
                     <div className="first-socmed">
-                        <a href="http://www.instagram.com/andyfransisko" target="_blank">
+                        <a href="http://www.instagram.com/andyfransisko" target="_blank" rel="noreferrer">
                             <span className="fa fa-instagram"></span>
                         </a>
-                        <a href="http://www.andyfransisko.com" target="_blank">
+                        <a href="http://www.andyfransisko.com" target="_blank" rel="noreferrer">
                             <span className="fa fa-twitter"></span>
                         </a>
                     </div>

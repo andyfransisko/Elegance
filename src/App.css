@@ -327,7 +327,22 @@ a {
   cursor: pointer;
 }
 
+.my-button1{
+  background-color: var(--accent-color);
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+  border: 2px solid var(--third-color);
+  color: var(--third-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 .my-button:hover{
+  background-color: #C36B03;
+}
+
+.my-button1:hover{
   background-color: #C36B03;
 }
 
@@ -565,4 +580,84 @@ footer{
 
 .about-info-font2{
   font-size: 12px;
+}
+
+.contact-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  padding-top: 50px;
+}
+
+.contact-head{
+  grid-column: 3/5;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+  font-size: 52px;
+}
+
+.contact-head2{
+  grid-column: 3/5;
+  grid-row: 3;
+  justify-self: center;
+  align-self: start;
+  font-size: 16px;
+}
+
+.contact-picture{
+  grid-column: 2/4;
+  grid-row: 4/10;
+  justify-self: center;
+  align-self: start;
+}
+
+.contact-fill1{
+  grid-column: 4/6;
+  grid-row: 4;
+}
+
+.contact-fill2{
+  grid-column: 4/6;
+  grid-row: 5;
+}
+
+.contact-fill3{
+  grid-column: 4/6;
+  grid-row: 6/8;
+}
+
+.contact-fill4{
+  padding-top: 10px;
+  grid-column: 4/6;
+  grid-row: 8;
+  justify-self: end;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 2px solid var(--accent-color);
+  background-color: var(--primary-color);
+  color: var(--third-color)
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  font-family: 'Manrope', sans-serif;
+  padding: 12px;
+  margin: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 2px solid var(--accent-color);
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  resize: none;
 }

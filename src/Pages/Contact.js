@@ -1,11 +1,16 @@
 import React from 'react'
+import Header from './Header'
+import ContactContent from './ContactContent'
+import Footer from './Footer'
 
 class Contact extends React.Component{
     render(){
         return(
-            <section>
-                dd
-            </section>
+            <div>
+                <Header />
+                <ContactContent />
+                <Footer />
+            </div>
         )
     }
 }

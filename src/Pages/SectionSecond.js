@@ -32,7 +32,7 @@ class SectionSecond extends React.Component{
                     </div>
 
                     <div className="sec-picture">
-                        <img src= { SecPic } width="500px" />
+                        <img src= { SecPic } width="500px" alt="" />
                     </div>
 
                     <div className="sec-head1 third-font-color">
@@ -55,7 +55,7 @@ class SectionSecond extends React.Component{
                     </div>
 
                     <div className="sec-picture2">
-                        <img src= { SecPic2 } width="500px" />
+                        <img src= { SecPic2 } width="500px" alt="" />
                     </div>
 
                     <div className="sec-head3 third-font-color">
@@ -69,8 +69,8 @@ class SectionSecond extends React.Component{
                     </div>
 
                     <div className="sec-head5">
-                        <img src= { LogoMobile1 } width="120px" className="sec-head-pad img-hover"/>
-                        <img src= { LogoMobile2 } width="120px" className="sec-head-pad img-hover"/>
+                        <img src= { LogoMobile1 } width="120px" className="sec-head-pad img-hover" alt="" />
+                        <img src= { LogoMobile2 } width="120px" className="sec-head-pad img-hover" alt="" />
                     </div>
 
                 </div>

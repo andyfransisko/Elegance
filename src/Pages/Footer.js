@@ -41,10 +41,10 @@ class Footer extends React.Component{
                         pariatur.
                     </div>
                     <div className="foot-about-socmed third-font-color">
-                        <a href="http://www.instagram.com/andyfransisko" target="_blank">
+                        <a href="http://www.instagram.com/andyfransisko" target="_blank" rel="noreferrer">
                             <span className="fa fa-instagram"></span>
                         </a>
-                        <a href="http://www.andyfransisko.com" target="_blank">
+                        <a href="http://www.andyfransisko.com" target="_blank" rel="noreferrer">
                             <span className="fa fa-twitter"></span>
                         </a>
                     </div>

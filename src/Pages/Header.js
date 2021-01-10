@@ -1,9 +1,6 @@
 import React from 'react'
 import Logo from '../img/logo.png'
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import Routes from '../Routes/Route'
-import MainContent from './MainContent'
-import About from './About'
+import { Link } from 'react-router-dom'
 
 class Header extends React.Component{
 
@@ -49,7 +46,7 @@ class Header extends React.Component{
                     <li>
                         <Link to = "/">
                             <span>
-                                <img src= { Logo } width="25px" />
+                                <img src= { Logo } width="25px" alt="LOGO"/>
                             </span>
                         </Link>
                         
